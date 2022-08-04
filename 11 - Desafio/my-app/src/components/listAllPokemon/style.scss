@@ -1,0 +1,30 @@
+.shelf{
+    max-width: 100%;
+    &_list{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+}
+
+.see-more{
+    margin: 20px auto;
+    display: block;
+    border-radius: 2px;
+    border: 2px solid #E3350D;
+    background: transparent;
+    color: #E3350D;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    transition: all .3s;
+    cursor: pointer;
+    &:hover{
+        background-color: #E3350D;
+        color: #fff;
+    }
+}
